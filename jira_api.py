@@ -8,7 +8,7 @@ Created on Tue Mar  5 15:58:37 2024
 import requests
 import pandas as pd
 
-bearer_token = 'NjIzOTQ5MzIzMDIxOop1cwJ5KiXZAfWOPRJYv4J0hz0o'
+bearer_token = 'your token'
 base_url = 'https://servicedesk.ninjavan.co'
 
 # Authentication headers
@@ -18,7 +18,7 @@ headers = {
 }
 
 # Endpoint for getting issues
-endpoint = f'{base_url}/rest/servicedeskapi/request/BIID-3922'
+endpoint = f'{base_url}/rest/servicedeskapi/request/BIID-3922' #your endpoint, this sample pulls information of 1 ticket with id BIID-3922.
 
 # Make GET request
 response = requests.get(endpoint, headers=headers)
