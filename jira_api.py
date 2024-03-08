@@ -9,7 +9,7 @@ import requests
 import pandas as pd
 # # Jira credentials
 # username = 'andi.darmawan@ninjavan.co'
-# api_token = 'NjIzOTQ5MzIzMDIxOop1cwJ5KiXZAfWOPRJYv4J0hz0o'
+# api_token = 'your token'
 # base_url = 'https://servicedesk.ninjavan.co'
 
 # # Authentication
